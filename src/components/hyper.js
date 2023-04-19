@@ -10,8 +10,6 @@ import figma from "../assets/img/icons/figma.png";
 import react from "../assets/img/icons/react.png";
 import node from "../assets/img/icons/node js.png";
 import mongodb from "../assets/img/icons/mongodb.png";
-import threejs from "../assets/img/icons/threejs.svg";
-import git from "../assets/img/icons/git.png";
 
 const Technologies = [
     {
@@ -49,14 +47,6 @@ const Technologies = [
     {
         name: "MongoDB",
         icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "Git",
-        icon: git,
     },
     {
         name: "Adobe xd",

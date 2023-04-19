@@ -5,13 +5,19 @@ import '../assets/css/central.css'
 
 const Tech = () => {
     return (
-        <div  style={{display:"flex",flexDirection:"row",flexWrap:"wrap",justifyContent:"center",gap:"50px",width:"20"}}>
-            {Technologies.map((Technology) => (
-                <div  key={Technology.name}>
-                    <Techcanvas icon={Technology.icon} />
-                </div>
-            ))}
+        <>
+        <div style={{display:"flex",justifyContent:"center",justifyItems:"center"}}>
+        <h1 id="techtitle">Technology</h1>
         </div>
+            <div id="tech">
+                <h1 id="summa">Technology</h1>
+                {Technologies.map((Technology) => (
+                    <div key={Technology.name}>
+                        <Techcanvas icon={Technology.icon} />
+                    </div>
+                ))}
+            </div>
+        </>
     );
 };
 

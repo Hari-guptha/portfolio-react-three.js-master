@@ -8,14 +8,14 @@ import { Beam } from './canvas/Beam'
 import { Rainbow } from './canvas/Rainbow'
 import { Prism } from './canvas/Prism'
 import { Flare } from './canvas/Flare'
-import { Box } from './canvas/Box'
+
 
 import { calculateRefractionAngle, lerp, lerpV3 } from './utils/util'
 
 export default function Skills() {
     const texture = useLoader(LUTCubeLoader, '/lut/F-6800-STD.cube')
     return (
-        <Canvas orthographic gl={{ antialias: false }} camera={{ position: [0, 0, 100], zoom: 70 }} style={{ width: '100%', height: '100vh',position:"absolute" }}>
+        <Canvas orthographic gl={{ antialias: false }} camera={{ position: [0, 0, 100], zoom: 70 }} style={{ width: '100%', height: '100vh', position: "absolute" }}>
             <color attach="background" args={['black']} />
             <Scene />
             <EffectComposer disableNormalPass>
@@ -87,11 +87,9 @@ function Scene() {
             <spotLight ref={spot} intensity={1} distance={7} angle={1} penumbra={1} position={[0, 0, 1]} />
             {/* Caption */}
             {/* Prism + blocks + reflect beam */}
+            
             <Beam ref={boxreflect} bounce={10} far={20}>
                 <Prism position={[0, -0.5, 0]} onRayOver={rayOver} onRayOut={rayOut} onRayMove={rayMove} />
-                <Box position={[2.25, -3.5, 0]} rotation={[0, 0, Math.PI / 3.5]} />
-                <Box position={[-2.5, -2.5, 0]} rotation={[0, 0, Math.PI / 4]} />
-                <Box position={[-3, 1, 0]} rotation={[0, 0, Math.PI / 4]} />
             </Beam>
             {/* Rainbow and flares */}
             <Rainbow ref={rainbow} startRadius={0} endRadius={0.5} fade={0} />

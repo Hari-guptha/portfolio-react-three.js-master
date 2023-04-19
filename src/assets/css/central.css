@@ -95,4 +95,27 @@
     }
 }
 
+#tech{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px 50px;
+    margin:8% 20px;
+}
 
+@media only screen and (max-width:600px) {
+    #tech{
+        display: flex;
+        gap: 0px 0px;
+        margin:35% 20px;
+    }
+   #summa{
+    display: none;
+   }
+}
+#techtitle{
+    color: white;
+    position:absolute;
+    font-weight: 400;
+}
