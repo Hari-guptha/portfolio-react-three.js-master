@@ -16,12 +16,12 @@ export const Navbar = () => {
                 <Stack direction={'row'} sx={{ display: "flex", justifyContent: "space-between" }} >
                     <h3 id='navitem1'>HIRE ME</h3>
                     <Box sx={{ display: "flex", justifyContent: "space-between" }} >
-                        <h3 id='navitem2'>about me</h3>
-                        <h3 id='navitem2'>Skills</h3>
-                        <h3 id='navitem2'>Experience</h3>
-                        <h3 id='navitem2'>Projects</h3>
-                        <h3 id='navitem2'>Art works</h3>
-                        <h3 id='navitem2'>Contact</h3>
+                        <a href="#About"><h3 id='navitem2'>about me</h3></a>
+                        <a href="#Skills"><h3 id='navitem2'>Skills</h3></a>
+                        <a href="#Exp"><h3 id='navitem2'>Experience</h3></a>
+                        <a href="#Project"><h3 id='navitem2'>Projects</h3></a>
+                        <a href="#Art"><h3 id='navitem2'>Art works</h3></a>
+                        <a href="#Contact"><h3 id='navitem2'>Contact</h3></a>
                     </Box>
                 </Stack>
                 </Box>
@@ -38,12 +38,12 @@ export const Navbar = () => {
                 onClose={e => (setfun(false))}>
                     <CloseIcon id="closeicon" onClick={e => (setfun(false))} />
                 <Stack direction={'column'} sx={{marginTop:"30%"}} >
-                    <h3 id='navitem2'>about me</h3>
-                    <h3 id='navitem2'>Skills</h3>
-                    <h3 id='navitem2'>Experience</h3>
-                    <h3 id='navitem2'>Projects</h3>
-                    <h3 id='navitem2'>Art works</h3>
-                    <h3 id='navitem2'>Contact</h3>
+                <a href="#About"><h3 id='navitem2'>about me</h3></a>
+                        <a href="#Skills"><h3 id='navitem2'>Skills</h3></a>
+                        <a href="#Exp"><h3 id='navitem2'>Experience</h3></a>
+                        <a href="#Project"><h3 id='navitem2'>Projects</h3></a>
+                        <a href="#Art"><h3 id='navitem2'>Art works</h3></a>
+                        <a href="#Contact"><h3 id='navitem2'>Contact</h3></a>
                     <h3 id='navitem3' >HIRE ME</h3>
                 </Stack>
             </Drawer>

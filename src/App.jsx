@@ -1,4 +1,7 @@
 import About from "./components/About"
+import Artwork from "./components/Artwork"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 import { Main } from "./components/main"
 import { Navbar } from "./components/Navbar"
 import Project from "./components/Project"
@@ -17,6 +20,9 @@ function App() {
     <Tech />
     <Timeline />
     <Project />
+    <Artwork />
+    <Contact/>
+    <Footer />
     </div>
   )
 }

@@ -7,9 +7,9 @@ const Laptop = () => {
     return (
         <>
         <Environment preset='warehouse' />
-        <PresentationControls global azimuth={[-0.4,1]} >
+        <PresentationControls global polar={[-0.2,0]}  azimuth={[-0.2,0]}   >
         <primitive object={laptop.scene} position-y={-1.1} position-x={0.5} />
-        <Html wrapperClass='laptop' position-x={0.55} position-y={0.3} position={[0.3,1,-1.5]} transform rotation-x={-0.25} distanceFactor={1.19} >
+        <Html wrapperClass='laptop' position-x={Math.PI/6} position-y={Math.PI/23} position={[0.3,1,-1.5]} transform rotation-x={-0.25} distanceFactor={1.19} >
             <iframe src='https://projects-3s2a.onrender.com/'  />
         </Html>
         </PresentationControls>

@@ -7,7 +7,7 @@ import { textVariant } from '../components/utils/motion';
 import '../assets/css/timeline.css';
 import '../assets/css/central.css'
 import Img from'../assets/img/samp8.png'
-import { Box } from '@material-ui/core';
+
 
 
 const ExperienceCard = ({ experience }) => {
@@ -50,7 +50,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Timeline = () => {
   return (
-    <>
+    <div id='Exp'>
       <motion.div id='cp' variants={textVariant()}>
         <div style={{display:"flex"}}>
         <p id='h3'>Work Experience and education</p>
@@ -66,7 +66,7 @@ const Timeline = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 

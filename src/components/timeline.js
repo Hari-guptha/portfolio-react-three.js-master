@@ -2,15 +2,25 @@ import smvec from '../assets/img/TIMELINE/SMVEC.png'
 import ssv from '../assets/img/TIMELINE/SSV.png'
 import chemin from '../assets/img/TIMELINE/CHEMIN.png'
 import ccpc from '../assets/img/TIMELINE/CCPC.png'
-import react from '../assets/img/icons/react.png'
+import kore from '../assets/img/TIMELINE/kore.png'
 
 const experiences = [
+  {
+    title: "BOT developer intern at kore.ai",
+    company_name: "KORE.AI",
+    icon: kore,
+    iconBg: "#111111",
+    date: "Apr 2023 - Present",
+    points: [
+      "I have developed a bot using the Kore.ai XO platform.",
+    ],
+  },
     {
       title: "UI/UX Designer and Backend Developer Intern",
       company_name: "CHEMIN CONTROLS AND INSTRUMENTATION PVT.LTD",
       icon: chemin,
       iconBg: "#111111",
-      date: "Dec 2022 - Present",
+      date: "Dec 2022 - Apr 2023",
       points: [
         "I designed the ux/ui for the chemin intellgb app as well as the icon.",
         "I have worked on the hardware side by connecting socket.io from esp8266 to node js.",

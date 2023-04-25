@@ -27,7 +27,7 @@ export const Main = () => {
             <br/>
             <br/>
             <div class="mouse-container" id='mouse'>
-                <a href="#about">
+                <a href="#About">
                     <div class="mouse">
                         <div class="mouse-wheel"></div>
                     </div>

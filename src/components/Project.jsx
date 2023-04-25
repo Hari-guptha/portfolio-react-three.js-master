@@ -6,18 +6,19 @@ import '../assets/css/central.css'
 
 function Project() {
     return (
-        <>
-        <div style={{margin:"10% 0 0 0"}} id='cp'>
+        <div id='Project'>
+        <div  style={{margin:"10% 0 0 0"}} id='cp'>
         <h2 id='h3'>MY</h2>
             <Box sx={{ display: "flex" }} >
-                <h1 id='h1'>POJECTS</h1>
+                <h1 id='h1'>PROJECTS</h1>
                 <img style={{width:"10%",padding:"0px 15px"}} src={IMG} alt="char" />
             </Box>
         </div>
-        <div style={{display:"flex",width:"90vw",height:"90vh"}}>
+        <div style={{display:"flex",width:"100%",height:"100vh",backgroundColor:"black"}}>
         <Computer />
+        <h1 style={{color:"white",margin:"10px",writingMode:"vertical-lr",textOrientation:"upright"}} >Move the display</h1>
         </div>
-        </>
+        </div>
     );
 }
 

@@ -25,6 +25,17 @@ const Tech = (props) => {
                     flatShading
                 />
             </mesh>
+            <mesh castShadow receiveShadow position={[0, 0, 0]} rotation={[0, Math.PI, 0]}>
+                <planeGeometry args={[4, 4]} />
+                <meshPhysicalMaterial color='rgba(0, 0, 0, 0.5)' transparent opacity={0} side={THREE.DoubleSide} />
+                <Decal
+                    position={[0, 0, 0.001]}
+                    rotation={[0, 0, 0]}
+                    scale={scale}
+                    map={decal}
+                    flatShading
+                />
+            </mesh>
         </Float>
     );
 };
