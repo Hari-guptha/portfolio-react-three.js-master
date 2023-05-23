@@ -6,7 +6,7 @@ import '../assets/css/central.css'
 
 function Project() {
     return (
-        <div id='Project'>
+        <div id='Project' style={{scrollMarginTop:"100px"}} >
         <div  style={{margin:"10% 0 0 0"}} id='cp'>
         <h2 id='h3'>MY</h2>
             <Box sx={{ display: "flex" }} >

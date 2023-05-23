@@ -50,7 +50,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Timeline = () => {
   return (
-    <div id='Exp'>
+    <div id='Exp'style={{scrollMarginTop:"130px"}} >
       <motion.div id='cp' variants={textVariant()}>
         <div style={{display:"flex"}}>
         <p id='h3'>Work Experience and education</p>

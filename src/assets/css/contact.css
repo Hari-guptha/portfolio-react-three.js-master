@@ -1,6 +1,7 @@
 #formcard{
     background-color: white;
-    margin: 20%;
+    margin: 10%;
     padding: 10%;
     border-radius: 15px;
+    width: 80%;
 }

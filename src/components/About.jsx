@@ -13,8 +13,8 @@ import ci4 from '../assets/img/about/da.png'
 
 const About = () => {
     return (
-        <div id='cp' className='about'>
-            <div id='About' style={{ paddingTop: "5%" }}>
+        <div id='cp'   className='about'>
+            <div id='About' style={{ paddingTop: "5%",scrollMarginTop:"30px" }}>
                 <h2 id='h3'>INTRODUCTION</h2>
                 <Box sx={{ display: "flex" }} >
                     <h1 id='h1'>overview</h1>

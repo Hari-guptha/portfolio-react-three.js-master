@@ -6,7 +6,7 @@ import '../assets/css/central.css'
 const Tech = () => {
     return (
         <>
-        <div id="Skills" style={{display:"flex",justifyContent:"center",justifyItems:"center"}}>
+        <div id="Skills" style={{display:"flex",justifyContent:"center",justifyItems:"center",scrollMarginTop:"100px"}}>
         <h1 id="techtitle">Technology</h1>
         </div>
             <div id="tech">

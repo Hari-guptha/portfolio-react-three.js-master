@@ -11,10 +11,10 @@ const Footer = () => {
             <h4 id='h3' style={{ color: "white",textAlign:"center" }} >Developed by titan</h4>
             <Box style={{ color: "white",display:"flex",marginLeft:"20px" }}>
                 <Tilt options={{ max: 30, speed: 400, perspective: 1000 }}>
-                    <a href='https://github.com/Hari-guptha'><GitHubIcon sx={{fontSize:"40px",margin:"0px 10px"}} /></a>
+                    <a href='https://github.com/Hari-guptha'><GitHubIcon sx={{fontSize:"30px",margin:"0px 10px",color:"white"}} /></a>
                 </Tilt>
                 <Tilt options={{ max: 30, speed: 400, perspective: 1000 }}>
-                <a href='https://www.linkedin.com/in/hari-guptha-bb6a29208/' ><LinkedInIcon  sx={{fontSize:"40px",margin:"0px 10px"}}  /></a>
+                <a href='https://www.linkedin.com/in/hari-guptha-bb6a29208/' ><LinkedInIcon  sx={{fontSize:"30px",margin:"0px 10px",color:"white"}}  /></a>
                 </Tilt>
             </Box>
         </div>

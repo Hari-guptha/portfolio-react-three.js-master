@@ -53,7 +53,7 @@ const Technologies = [
         icon: xd,
     },
     {
-        name: "Adobe after effects",
+        name: "Adobe ae",
         icon: ae,
     },
     {
