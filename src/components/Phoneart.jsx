@@ -68,7 +68,7 @@ const Phoneart = ({ slides }) => {
 
   return (
     <>
-    <h1 style={{margin:"10% 0 0 7%"}} id='h1'>MY ARTWORK</h1>
+    <h1 style={{margin:"10% 0 0 2%",width:"80vw"}} id='h1'>MY ARTWORK</h1>
         <div style={sliderStyles}>
       <div>
         <div onClick={goToPrevious} style={leftArrowStyles}>

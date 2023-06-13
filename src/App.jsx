@@ -30,9 +30,9 @@ function App() {
     { url: img6}
   ];
   const containerStyles = {
-    width: "100%",
+    width: "80%",
     height: "280px",
-    margin: "20px",
+    margin: "20px 11%",
   };
   return (
     <div style={{ backgroundColor: "black" }}>

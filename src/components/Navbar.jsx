@@ -14,7 +14,7 @@ export const Navbar = () => {
             <AppBar id='navbar' >
                 <Box sx={{ display: { md: "block", sm: "none", xs:"none" } }}>
                 <Stack direction={'row'} sx={{ display: "flex", justifyContent: "space-between" }} >
-                    <h3 id='navitem1'>HIRE ME</h3>
+                    <a href='https://www.linkedin.com/in/hari-guptha-bb6a29208/'><h3 id='navitem1'>HIRE ME</h3></a>
                     <Box sx={{ display: "flex", justifyContent: "space-between" }} >
                         <a href="#About"><h3 id='navitem2'>about me</h3></a>
                         <a href="#Skills"><h3 id='navitem2'>Skills</h3></a>
@@ -27,7 +27,7 @@ export const Navbar = () => {
                 </Box>
                 <Box sx={{ display: { md: "none", sm: "block",xs:"block" } }}>
                 <Stack direction={'row'} sx={{ display: "flex", justifyContent: "space-between" }} >
-                    <h3 id='navitem1'>HIRE ME</h3>
+                <a href='https://www.linkedin.com/in/hari-guptha-bb6a29208/'><h3 id='navitem1'>HIRE ME</h3></a>
                     <MenuIcon id="menuicon" onClick={e => (setfun(true))} />
                 </Stack>
                 </Box>
@@ -39,12 +39,12 @@ export const Navbar = () => {
                     <CloseIcon id="closeicon" onClick={e => (setfun(false))} />
                 <Stack direction={'column'} sx={{marginTop:"30%"}} >
                 <a href="#About"><h3 id='navitem2'>about me</h3></a>
-                        <a href="#Skills"><h3 id='navitem2'>Skills</h3></a>
-                        <a href="#Exp"><h3 id='navitem2'>Experience</h3></a>
-                        <a href="#Project"><h3 id='navitem2'>Projects</h3></a>
-                        <a href="#Art"><h3 id='navitem2'>Art works</h3></a>
-                        <a href="#Contact"><h3 id='navitem2'>Contact</h3></a>
-                    <h3 id='navitem3' >HIRE ME</h3>
+                        <a href="#Skills" onClick={e => (setfun(false))} ><h3 id='navitem2'>Skills</h3></a>
+                        <a href="#Exp" onClick={e => (setfun(false))} ><h3 id='navitem2'>Experience</h3></a>
+                        <a href="#Project" onClick={e => (setfun(false))} ><h3 id='navitem2'>Projects</h3></a>
+                        <a href="#Art" onClick={e => (setfun(false))} ><h3 id='navitem2'>Art works</h3></a>
+                        <a href="#Contact" onClick={e => (setfun(false))} ><h3 id='navitem2'>Contact</h3></a>
+                        <a href='https://www.linkedin.com/in/hari-guptha-bb6a29208/'onClick={e => (setfun(false))} ><h3 id='navitem3' >HIRE ME</h3></a>
                 </Stack>
             </Drawer>
         </>

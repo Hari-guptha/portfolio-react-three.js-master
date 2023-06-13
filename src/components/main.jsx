@@ -18,7 +18,7 @@ export const Main = () => {
                     <h1 id='h1'>Hari guptha</h1>
                     <h3 id='h3'>mern-stack developer, ux/ui designer,digital artist</h3>
                     <div style={{ display: "flex", justifyContent: "center", justifyItems: "center", paddingTop: "10%" }}>
-                        <button class='glowing-btn'><span class='glowing-txt'>RE<span class='faulty-letter'>SU</span>ME</span></button>
+                        <a href='https://drive.google.com/file/d/1buzCXPyYBHI242AXzHcwJF-Xu9KP8wli/view?usp=sharing'><button class='glowing-btn'><span class='glowing-txt'>RE<span class='faulty-letter'>SU</span>ME</span></button></a>
                     </div>
                 </div>
                 <img id='img' src={Img1} alt="char" />

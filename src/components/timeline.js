@@ -12,7 +12,7 @@ const experiences = [
     iconBg: "#111111",
     date: "Apr 2023 - Present",
     points: [
-      "I have developed a bot using the Kore.ai XO platform.",
+      "I have also gained experience in developing a bot using the Kore.ai XO platform.",
     ],
   },
     {
@@ -22,9 +22,9 @@ const experiences = [
       iconBg: "#111111",
       date: "Dec 2022 - Apr 2023",
       points: [
-        "I designed the ux/ui for the chemin intellgb app as well as the icon.",
-        "I have worked on the hardware side by connecting socket.io from esp8266 to node js.",
-        "I have created a react js  page for the Chemin Intelligb website.",
+        "I One of my notable achievements includes designing the UX/UI for the Chemin Intellgb app, which involved creating the app's icon as well.designed the ux/ui for the chemin intellgb app as well as the icon and logo.",
+        "Additionally, I have gained experience in the hardware aspect by successfully connecting socket.io from ESP8266 to Node.js.",
+        "As part of my portfolio, I have developed a React.js page specifically for the Chemin Intelligb website.",
       ],
     },
     {
@@ -34,9 +34,9 @@ const experiences = [
       iconBg: "#111111",
       date: "Jun 2022 - Aug 2022",
       points: [
-        "I have developed a recommendation system using machine learning for course recommendations for the app.",
-        "I have created a chatbot for FAQ questions using Google DialogFlow for the app.",
-        "I have created a landing page to download the app.",
+        "I have successfully developed a recommendation system using machine learning to provide course recommendations for the app.",
+        "Furthermore, I created a chatbot using Google DialogFlow to handle frequently asked questions (FAQs) for the app.",
+        "In addition, I designed and implemented a landing page dedicated to facilitating app downloads.",
       ],
     },
     {

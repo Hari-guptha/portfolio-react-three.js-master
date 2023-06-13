@@ -24,7 +24,7 @@ const Artwork = () => {
                     position: [2.3, 1.5, 2.3],
                 }} >
                 <OrbitControls enableZoom={false} />
-                <ScrollControls pages={3} damping={0.25}>
+                <ScrollControls style={{width:"100vw"}} pages={3} damping={0.25}>
                     <Room />
                 </ScrollControls>
             </Canvas>
